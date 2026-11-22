@@ -1,0 +1,38 @@
+# Node
+node_modules/
+npm-debug.log*
+*.log
+
+# Web-build
+www/
+dist/
+build/
+
+# Android (Capacitor)
+.gradle/
+android/.gradle/
+android/build/
+android/app/build/
+android/app/release/
+android/local.properties
+android/captures/
+android/.idea/
+*.iml
+
+# Geheimen en signeergegevens: nooit committen
+.env*
+!.env.example
+*.jks
+*.keystore
+keystore.properties
+key.properties
+
+# Gebouwde apps
+*.apk
+*.aab
+
+# Systeem en editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
